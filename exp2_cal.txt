@@ -1,0 +1,36 @@
+import java.util.*;
+public class exp_2 {
+    public static void main(String[] args){
+        int ch;
+        double n1,n2,r=0;
+        Scanner cal=new Scanner(System.in);
+        System.out.println("Enter first number:");
+        n1= cal.nextInt();
+        System.out.println("Enter second number:");
+        n2= cal.nextInt();
+        System.out.println("Choose Operation: \n 1. Addition \n 2. Subtraction \n 3. Multiplication \n 4. divide \n");
+        ch=cal.nextInt();
+        switch (ch){
+            case 1:
+                r=n1+n2;
+                System.out.println("Addition = "+r);
+                break;
+            case 2:
+                r=n1-n2;
+                System.out.println("Subtraction = "+r);
+                break;
+            case 3:
+                r=n1*n2;
+                System.out.println("Multiplication = "+r);
+                break;
+            case 4:
+                if(n2==0){
+                    System.out.println("math error");
+                    break;
+                }
+                r=n1/n2;
+                System.out.println("Division = "+r);
+                break;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+import java.util.*;
+public class exp_2 {
+    public static void main(String[] args){
+        int n1,n2,n3,n4,n5;
+        Scanner num=new Scanner(System.in);
+        System.out.println("Enter five Numbers: ");
+        n1=num.nextInt();
+        n2=num.nextInt();
+        n3=num.nextInt();
+        n4=num.nextInt();
+        n5=num.nextInt();
+        
+        if(n1>n2 && n1>n3 && n1>n4 && n1>n5) {
+            System.out.println("Largest is: "+n1);
+            
+        } else if (n2>n1 && n2>n3 && n2>n4 && n2>n5) {
+            System.out.println("Largest is: "+n2);
+            
+        } else if (n3>n1 && n3>n2 && n3>n4 && n3>n5) {
+            System.out.println("Largest is: "+n3);
+            
+        } else if (n4>n1 && n4>n2 && n4>n3 && n4>n5) {
+            System.out.println("Largest is: "+n4);
+            
+        }
+        else{
+            System.out.println("Largest is: "+n5);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+import java.util.*;
+public class exp_2 {
+    public static void main(String[] args){
+        int n;
+        Scanner tab=new Scanner(System.in);
+        System.out.println("Enter number:");
+        n= tab.nextInt();
+
+        for (int i=1; i<=10; i++){
+            int r=n*i;
+            System.out.println(n+" X "+i+" = "+r);
+        }
+
+    }
+}

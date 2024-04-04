@@ -1,0 +1,16 @@
+import java.util.*;
+public class natural_num {
+    public static void main(String[] args) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number:");
+        n=sc.nextInt();
+        if(n>0){
+            System.out.println("Its a Natural NUmber");
+        }
+        else{
+            System.out.println("Its a NOT Natural Number");
+        }
+    }
+}
+
